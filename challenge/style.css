@@ -1,0 +1,144 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: solid 10px rgb(0, 177, 177);
+  padding: 20px 30px;
+  width: 420px;
+  height: 100vh;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.top__column:nth-child(1) {
+  width: 33%;
+}
+.top__column > span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.top__column:nth-child(2) {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+.top__column:nth-child(3) {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nowplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+.nowplay__img {
+  width: 180px;
+  height: 180px;
+  background-color: orange;
+  border-radius: 20%;
+  border: solid 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nowplay__img:first-child {
+  color: white;
+}
+.nowplay__txt {
+  display: flex;
+  flex-direction: column;
+}
+.nowplay__song {
+  font-size: 50px;
+  font-weight: 900;
+}
+.nowplay__name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.btn__play {
+  width: 220px;
+  height: 70px;
+  border-radius: 20px;
+  border: solid 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 7px black;
+}
+.btn__play span {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.btn__like {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: solid 2px black;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 7px black;
+  align-items: center;
+}
+.btn__plus {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: solid 2px black;
+  display: flex;
+  box-shadow: 0px 7px black;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 50px 0px;
+}
+.list__img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20%;
+  border: solid 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.list:nth-of-type(3) .list__img {
+  background-color: tomato;
+}
+.list:nth-child(5) .list__img {
+  background-color: pink;
+}
+.list:nth-child(6) .list__img {
+  background-color: blue;
+}
+.list:nth-child(7) .list__img {
+  background-color: turquoise;
+}
+.list_txt {
+  display: flex;
+  flex-direction: column;
+}
+.list__song {
+  font-size: 30px;
+  font-weight: bold;
+}
+.list__name {
+  font-size: 20px;
+  font-weight: lighter;
+}
