@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="playlist">
+      <top class="playlist__top">
+        <i class="fa-solid fa-arrow-left fa-lg"></i>
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+      </top>
+
+      <header class="header">
+        <img
+          class="header__img"
+          src="https://cdnimg.melon.co.kr/cm2/artistcrop/images/002/61/143/261143_20210325180240_500.jpg?61e575e8653e5920470a38d1482d7312/melon/optimize/90"
+          width="100"
+          height="100"
+        />
+        <div class="header__txt">
+          <h1 class="header__name">IU, The Musician</h1>
+          <span class="header__genre">K-POP</span>
+        </div>
+      </header>
+
+      <form class="btn">
+        <input class="btn__shuffle" type="button" value="Shuffle" />
+        <!--here, heart icon need!!-->
+        <input class="btn__like" type="button" value="212,921" />
+      </form>
+
+      <div class="song">
+        <ul class="song__list">
+          <div class="song__select">
+            <div class="song__info">
+              <div class="song__img">
+                <img
+                  src="https://lh3.googleusercontent.com/-tdq58fAgaawQcx744mZUP67379plUJcWvzPSyfRy305ZmNcYii54WboN9OBa4I-cEdzu7u5yW4nSFlBQA=w544-h544-l90-rj"
+                  height="55"
+                  width="55"
+                />
+              </div>
+              <div class="song__txt">
+                <span class="song__txt__name">IU</span>
+                <span class="song__txt__song">Lilac</span>
+              </div>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+          </div>
+          <div class="song__select">
+            <div class="song__info">
+              <div class="song__img">
+                <img
+                  src="https://lh3.googleusercontent.com/6Tfu4kQuO8dl7yFh94tADKD-_anARsd4xmz3SuWIja4J8dY5LZr7vzfpSvGg_pnW5359c33cyiVawa4j=w544-h544-l90-rj"
+                  height="55"
+                  width="55"
+                />
+              </div>
+              <div class="song__txt">
+                <span class="song__txt__name">IU</span>
+                <span class="song__txt__song">Twenty-three</span>
+              </div>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+          </div>
+          <div class="song__select">
+            <div class="song__info">
+              <div class="song__img">
+                <img
+                  src="https://lh3.googleusercontent.com/alWLsNVvCDvoRhwYELsityi5-_NdwKPQaSOqTD3Qjb4TY6YH0VyKhZWNGu91nEpgUEIVEeQFyFnimiws=w544-h544-l90-rj"
+                  height="55"
+                  width="55"
+                />
+              </div>
+              <div class="song__txt">
+                <span class="song__txt__name">IU</span>
+                <span class="song__txt__song">Love Poem</span>
+              </div>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+          </div>
+          <div class="song__select">
+            <div class="song__info">
+              <div class="song__img">
+                <img
+                  src="https://lh3.googleusercontent.com/lYVgOzNwvDGa2OosE3FUJ5ZEcROXrBnJxgx3i2zhyW6-hXxZ0CZBLBSbLuWAvoVhtWRN14LGhZGCZeWt0w=w544-h544-l90-rj"
+                  height="55"
+                  width="55"
+                />
+              </div>
+              <div class="song__txt">
+                <span class="song__txt__name">IU</span>
+                <span class="song__txt__song">Modern Times</span>
+              </div>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+          </div>
+        </ul>
+      </div>
+
+      <div class="play">
+        <div class="play__txt">
+          <span class="song__txt__name">IU</span>
+          <span class="song__txt__song">Twenty-three</span>
+        </div>
+        <div class="play__btn">
+          <i class="fa-solid fa-backward-step"></i>
+          <i class="fa-solid fa-play fa-lg"></i>
+          <i class="fa-solid fa-forward-step"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="playlist">
+      <top class="playlist__top">
+        <i class="fa-solid fa-arrow-left fa-lg"></i>
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+      </top>
+      <header class="header">
+        <img
+          class="header__img-rec"
+          src="https://lh3.googleusercontent.com/alWLsNVvCDvoRhwYELsityi5-_NdwKPQaSOqTD3Qjb4TY6YH0VyKhZWNGu91nEpgUEIVEeQFyFnimiws=w544-h544-l90-rj"
+          width="300"
+          height="300"
+        />
+        <div class="header__txt">
+          <h1 class="header__name">Love Poem</h1>
+          <span class="header__genre">IU</span>
+        </div>
+      </header>
+      <bar class="bar">
+        <div class="time">
+          <span class="time__txt">2:54</span>
+          <span class="time__txt">4:18</span>
+        </div>
+        <div class="time-bar"></div>
+      </bar>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/5f2aa611c1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

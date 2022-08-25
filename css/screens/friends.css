@@ -1,0 +1,15 @@
+#friends-display-link {
+  position: fixed;
+  display: flex;
+  top: 120px;
+  justify-content: center;
+  background-color: #fafafa;
+  width: 100%;
+  padding: 15px 0px;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+#friends-display-link i {
+  margin: 0px 5px;
+  opacity: 0.3;
+}
